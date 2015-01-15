@@ -1,0 +1,152 @@
+body {
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    color: #ffffff;
+}
+.grey-bg {
+    background-color: #808080;
+}
+
+.nav-link {
+    margin: 5px 10px;
+    display: inline-block;
+    color: #ffffff;
+}
+
+.header {
+    background-color: #696969;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+#search-bar {
+    margin: 5px 30px;
+    display: inline-block;
+}
+
+#search-bar input {
+    background-color: #808080;
+    border-radius: 3px;
+    outline: none;
+}
+
+#personal-info {
+    display: inline-block;
+    float: right;
+    margin: 10px;
+}
+
+.middle {
+    text-align: center;
+}
+
+#page-body {
+    background-image: url("../images/body-bg.jpg");
+    background-size: 100%;
+}
+
+.footer {
+    background-color: #696969;
+}
+
+#create, #createBottom {
+    background-color: #00bfff;
+    margin-left:250px;
+    width: 100px;
+}
+
+.btn {
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+}
+#upload {
+    background-color: #ff8c00;
+    width: 75px;
+    height: 25px;
+}
+#thanks {
+    background-color: transparent;
+    border: #ffffff 1px solid;
+    margin-left:12px;
+    width: 80px;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    margin-left: 300px;
+}
+.sub-title {
+    text-align: center;
+    font-size: 12px;
+    margin-left: 350px;
+}
+
+.main-text {
+    padding: 80px 0 20px 0;
+    margin-left: 20px;
+}
+.center {
+    display: block;
+    margin-left: 300px;
+}
+#second-line {
+    padding-left: 87px;
+    padding-top: 10px;
+}
+.step {
+    display: inline-block;
+    width: 230px;
+    margin-left: 120px;
+}
+
+.icon-magic-wand:before {
+    content: "\e607";
+}
+.bottom {
+    margin-left: 300px;
+    margin-top: 30px;
+}
+#createBottom {
+    display: block;
+    background-color: #ffffff;
+    color: #00bfff;
+}
+.footer-text {
+    margin-left: 200px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 12px;
+}
+.mobile {
+    position: relative;
+    left: -343px;
+}
+.desktop {
+    position: relative;
+    left: 261px;
+}
+.tablet {
+    position: relative;
+    left: -50px;
+}
+
+.main-btn {
+    margin-left: 175px;
+}
+
+.search-input {
+    display: inline-block;
+    width: 200px;
+}
+.search-input input {
+    border: none;
+    outline: none;
+    height: 25px;
+    width: 200px;
+    font-size: 14px;
+}
