@@ -3,7 +3,7 @@ body {
     color: #f8f8f8;
     background-color: #2d2d2d;
 }
-.nav {
+.nav{
     background-color: #4c4c4c;
     text-align: center;
 }
@@ -23,7 +23,7 @@ body {
 }
 .search {
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 114px;
     font-size: 13px;
 }
 .search label {
@@ -49,16 +49,20 @@ body {
     outline: none;
     position: relative;
     bottom: 15px;
-    font-size: 13px;
+    font-size: 12px;
     height: 24px;
 }
 
 #personal-info {
     display: inline-block;
     float: right;
-    margin: 10px;
+    margin: 10px 80px;
 }
-
+#personal-info a {
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 12px;
+}
 .middle {
     text-align: center;
 }
@@ -70,42 +74,58 @@ body {
 
 #create, #createBottom {
     background-color: #2d7cba;
-    margin-left:250px;
-    width: 100px;
+    width: 150px;
+}
+.center-text {
+    display: inline-block;
+    margin-top: 15px;
 }
 
 .btn {
     border-radius: 5px;
     display: inline-block;
     text-align: center;
-    height: 40px;
+    height: 45px;
 }
 #upload {
     background-color: #e28133;
-    width: 75px;
+    width: 70px;
     height: 25px;
+    float: left;
+    margin-right: 5px;
+}
+#config-icon {
+    width: 25px;
+    height: 25px;
+    background-color: #e28133;
 }
 #thanks {
     background-color: transparent;
     border: #ffffff 1px solid;
     margin-left:12px;
-    width: 80px;
+    width: 100px;
+    height: 43px;
+    font-size: 14px;
 }
 
 .title {
     text-align: center;
     font-size: 35px;
-    margin-left: 185px;
+    display: inline-block;
+    margin: 15px 0px;
 }
 .sub-title {
     text-align: center;
     font-size: 12px;
-    margin-left: 350px;
 }
 
 .main-text {
-    padding: 80px 0 20px 0;
+    padding: 85px 0 20px 0;
     margin-left: 20px;
+    text-align: center;
+}
+.main-pic {
+    text-align: center;
 }
 .center {
     display: block;
@@ -141,19 +161,20 @@ body {
 }
 .mobile {
     position: relative;
-    left: -343px;
+    left: -405px;
 }
 .desktop {
     position: relative;
-    left: 261px;
+    left: 200px;
 }
 .tablet {
     position: relative;
-    left: -50px;
+    left: -115px;
 }
 
 .main-btn {
-    margin-left: 175px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .search-input {
