@@ -2,6 +2,7 @@ body {
     font-family: Lato,Helvetica,Arial,sans-serif;
     color: #f8f8f8;
     background-color: #2d2d2d;
+    margin: 0;
 }
 .nav{
     background-color: #4c4c4c;
@@ -11,9 +12,9 @@ body {
 .nav-link {
     margin: 5px 20px;
     display: inline-block;
-    color: #ffffff;
+    color: #d1d1d1;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .icon {
@@ -33,14 +34,14 @@ body {
 .line {
     display: inline-block;
     width: 1px;
-    height: 13px;
+    height: 10px;
     background-color: #4c4c4c;
     position: relative;
     bottom: 13px;
     margin: 0px 10px;
 }
 #search-bar {
-    margin: -6px 30px -6px 30px;
+    margin: 2px 30px -9px 30px;
 }
 
 #search-bar input {
@@ -95,7 +96,7 @@ body {
     margin-right: 5px;
 }
 #config-icon {
-    width: 25px;
+    width: 30px;
     height: 25px;
     background-color: #e28133;
 }
@@ -110,54 +111,52 @@ body {
 
 .title {
     text-align: center;
-    font-size: 35px;
+    font-size: 37px;
     display: inline-block;
     margin: 15px 0px;
 }
 .sub-title {
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .main-text {
-    padding: 85px 0 20px 0;
+    padding: 65px 0 20px 0;
     margin-left: 20px;
     text-align: center;
+    color: #f0f0f0;
 }
 .main-pic {
     text-align: center;
 }
 .center {
     display: block;
-    margin-left: 300px;
 }
 #second-line {
-    padding-left: 87px;
     padding-top: 10px;
 }
 .step {
     display: inline-block;
-    width: 230px;
-    margin-left: 120px;
+    width: 208px;
+    margin: 0px 20px 0px 20px
 }
 
 .icon-magic-wand:before {
     content: "\e607";
 }
 .bottom {
-    margin-left: 300px;
-    margin-top: 30px;
+    margin-top: 40px;
+    text-align: center;
 }
 #createBottom {
-    display: block;
+    display: inline-block;
     background-color: #ffffff;
     color: #2d7cba;
 }
 .footer-text {
-    margin-left: 200px;
-    margin-top: 20px;
-    display: inline-block;
-    font-size: 12px;
+    margin-top: 35px;
+    font-size: 10px;
+    color: #b4b4b4;
 }
 .mobile {
     position: relative;
@@ -187,4 +186,26 @@ body {
     height: 25px;
     width: 200px;
     font-size: 14px;
+}
+.footer-step {
+    text-align: center;
+    margin-top: 34px;
+}
+.sub-text {
+    font-size: 12px;
+    display: inline-block;
+    color: #b4b4b4;
+}
+.step-text {
+    width: 200px;
+    display: inline-block;
+}
+.footer-line {
+    width: 38px;
+    height: 1px;
+    background-color: #4c4c4c;
+    display: inline-block;
+}
+.footer {
+    text-align: center;
 }
