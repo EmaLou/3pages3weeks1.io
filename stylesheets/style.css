@@ -1,8 +1,52 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?-1zlxs3');
+    src:url('../fonts/icomoon.eot?#iefix-1zlxs3') format('embedded-opentype'),
+    url('../fonts/icomoon.woff?-1zlxs3') format('woff'),
+    url('../fonts/icomoon.ttf?-1zlxs3') format('truetype'),
+    url('../fonts/icomoon.svg?-1zlxs3#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+    content: "\e986";
+}
+
+.icon-magic-wand:before {
+    content: "\e997";
+}
+
+.icon-ctrl:before {
+    content: "\ea50";
+}
+
+.icon-linkedin2:before {
+    content: "\eac9";
+}
+
 body {
     font-family: Lato,Helvetica,Arial,sans-serif;
     color: #f8f8f8;
     background-color: #2d2d2d;
     margin: 0;
+}
+.header {
+    text-align: center;
 }
 .nav{
     background-color: #4c4c4c;
@@ -24,7 +68,7 @@ body {
 }
 .search {
     display: inline-block;
-    margin-left: 114px;
+    margin-left: 125px;
     font-size: 13px;
 }
 .search label {
@@ -41,23 +85,16 @@ body {
     margin: 0px 10px;
 }
 #search-bar {
-    margin: 2px 30px -9px 30px;
-}
-
-#search-bar input {
-    background-color: #4c4c4c;
-    border-radius: 3px;
-    outline: none;
-    position: relative;
-    bottom: 15px;
-    font-size: 12px;
-    height: 24px;
+    margin-bottom: -16px;
+    display: inline-block;
+    min-width: 850px;
 }
 
 #personal-info {
     display: inline-block;
-    float: right;
-    margin: 10px 80px;
+    margin: 10px 0 10px 300px;
+    position: relative;
+    bottom: 16px;
 }
 #personal-info a {
     margin-top: 5px;
@@ -73,6 +110,15 @@ body {
     background-size: 100%;
 }
 
+#create .icon-linkedin2,
+#createBottom .icon-linkedin2{
+    display: inline-block;
+    width: 40px;
+    font-size: 28px;
+    position: relative;
+    top: 4px;
+    right: 4px;
+}
 #create, #createBottom {
     background-color: #2d7cba;
     width: 150px;
@@ -80,6 +126,7 @@ body {
 .center-text {
     display: inline-block;
     margin-top: 15px;
+    margin-right: 2px;
 }
 
 .btn {
@@ -95,10 +142,14 @@ body {
     float: left;
     margin-right: 5px;
 }
-#config-icon {
-    width: 30px;
+.config-icon {
+    width: 35px;
     height: 25px;
     background-color: #e28133;
+}
+.config-icon .icon-magic-wand {
+    position: relative;
+    top: 6px;
 }
 #thanks {
     background-color: transparent;
@@ -138,12 +189,9 @@ body {
 .step {
     display: inline-block;
     width: 208px;
-    margin: 0px 20px 0px 20px
+    margin: 0 15px 0 15px;
 }
 
-.icon-magic-wand:before {
-    content: "\e607";
-}
 .bottom {
     margin-top: 40px;
     text-align: center;
@@ -186,6 +234,16 @@ body {
     height: 25px;
     width: 200px;
     font-size: 14px;
+    color: #d1d1d1;
+    background-color: #4c4c4c;
+    border-radius: 3px;
+    position: relative;
+    top: 7px;
+}
+.search-input .icon-search {
+    position: relative;
+    bottom: 11px;
+    left: 87px;
 }
 .footer-step {
     text-align: center;
@@ -199,6 +257,13 @@ body {
 .step-text {
     width: 200px;
     display: inline-block;
+}
+.footer-step .icon-ctrl {
+    display: inline-block;
+    font-size: 54px;
+    color: #4c4c4c;
+    position: relative;
+    top: 10px;
 }
 .footer-line {
     width: 38px;
